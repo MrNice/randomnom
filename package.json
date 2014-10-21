@@ -1,0 +1,29 @@
+{
+  "name": "randomnom",
+  "version": "0.0.1",
+  "description": "Food for Ping!",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrNice/randomnom.git"
+  },
+  "keywords": [
+    "Random",
+    "food",
+    "sender",
+    "generator"
+  ],
+  "author": "Nicholas van de Walle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrNice/randomnom/issues"
+  },
+  "homepage": "https://github.com/MrNice/randomnom",
+  "dependencies": {
+    "express": "^4.9.8",
+    "mongoose": "^3.8.17"
+  }
+}

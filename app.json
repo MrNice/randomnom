@@ -1,0 +1,6 @@
+{
+  "name": "Feed Ping!",
+  "description": "Help make sure Ping Eats",
+  "repository": "https://github.com/mrnice/randomnom",
+  "keywords": ["node", "express", "static"]
+}
