@@ -1,10 +1,7 @@
-var express = require('express');
-var app = express();
+// Heroku's app.json
+var app = require('./app/index');
+const PORT = app.get('port');
 
-app.set('port', (process.env.PORT || 5000))
-
-app.use('/', express.static(__dirname + '/public'));
-
-app.listen(app.get('port'), function() {
-  console.log('Now working on Port: ' + app.get('port'));
+app.listen(PORT, function() {
+  console.log('Now working on Port: ' + PORT);
 });
