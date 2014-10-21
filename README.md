@@ -3,8 +3,8 @@ randomnom
 
 Food for Ping!
 
-** Notes On Development
-**** Everything under one roof
+## Notes On Development
+#### Everything under one roof
 This project is basically just ***everything I want to see in nodejs projects***
 
 It has:
