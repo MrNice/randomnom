@@ -21,6 +21,7 @@
   "bugs": {
     "url": "https://github.com/MrNice/randomnom/issues"
   },
+  "private": true,
   "homepage": "https://github.com/MrNice/randomnom",
   "dependencies": {
     "express": "^4.9.8",
